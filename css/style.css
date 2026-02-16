@@ -23,9 +23,19 @@ nav{
     padding-left: 2rem;
 }
 
+nav2{
+    display: flex;
+    background-color: cadetblue;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
 ul{
-    list-style: none;
-    
+    list-style: none;   
 }
 
 li{
@@ -99,7 +109,7 @@ img{
 
 .hprojects{
     position: absolute;
-    height: 325%;
+    bottom: -700px;
 }
 
 h3{
@@ -132,6 +142,7 @@ subsection{
     display: flex;
     padding: 10%;
     align-items: center;
+    justify-content: center;
 }
 
 .seesimg{
@@ -150,16 +161,27 @@ subsection{
 
 .hcontact{
     position: absolute;
-    height: 75%;
+    bottom: 75%;
     font-size: 5rem;
 }
 
-.skills{
+.contact{
     margin: 2%;
     position: relative;
     font-size: 4rem;
 }
 
 .socialmedia{
-    max-width: 400px;
+    margin: 2%;
+    max-width: 300px;
+}
+.socialmediasm{
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    max-width: 30px;
+}
+
+#ximg{
+    margin: -3%;
 }
